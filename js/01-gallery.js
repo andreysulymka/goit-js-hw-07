@@ -36,7 +36,7 @@ function onGalleryContainerClick(event) {
         return;
     };
 
-    const modalWindow = basicLightBox.create(
+    const modalWindow = basicLightbox.create(
         `<img src="${event.target.dataset.source}" >`
     );
 
